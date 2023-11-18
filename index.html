@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sticky Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar img {
+      max-height: 40px; /* Adjust as needed */
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    /* Intro Section */
+    .intro-section {
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .intro-section button {
+      /* Add button styles */
+    }
+
+    .intro-section img {
+      max-width: 100%; /* Adjust as needed */
+    }
+
+    /* Contact Us Section */
+    .contact-section {
+      padding: 50px;
+    }
+
+    .custom-input {
+      /* Add custom input styles */
+      outline: none;
+    }
+
+    /* Table Section */
+    .table-section {
+      padding: 50px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    tfoot {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <div class="navbar">
+    <img src="path/to/logo.png" alt="Logo">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <!-- Add more navigation links as needed -->
+  </div>
+
+  <!-- Intro Section -->
+  <div class="intro-section">
+    <div>
+      <h1>Your Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <button>Learn More</button>
+    </div>
+    <img src="path/to/jeff_bezos_image.jpg" alt="Jeff Bezos">
+  </div>
+
+  <!-- Contact Us Section -->
+  <div class="contact-section">
+    <!-- Add custom input fields as needed -->
+    <input type="text" class="custom-input" placeholder="Name">
+    <input type="email" class="custom-input" placeholder="Email">
+    <!-- Add more input fields as needed -->
+  </div>
+
+  <!-- Table Section -->
+  <div class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+          <!-- Add more headers as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <!-- Add more data rows as needed -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td>Sum of Data 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+</body>
+</html>
